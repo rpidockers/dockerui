@@ -1,4 +1,4 @@
-FROM crosbymichael/golang
+FROM rpidockers/golang:1.3.3
 
 ADD . /app/
 WORKDIR /app/
